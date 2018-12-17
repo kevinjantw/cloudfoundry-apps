@@ -1,0 +1,11 @@
+{
+    "name": "NodeRed",
+    "version": "1.0.0",
+    "description": "cf-nodered-dashboard",
+    "repository": "https://github.com/node-red/node-red.git",
+    "author": "NodeRed",
+    "license": "MIT",
+    "dependencies": {
+        "node-red": "^0.17.5"
+    }
+}

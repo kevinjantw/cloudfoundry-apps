@@ -1,0 +1,7 @@
+---
+applications:
+- name: cf-hello-java
+  memory: 256M
+  instances: 1
+  host: helloworld-java
+  path: target/hello-java.war

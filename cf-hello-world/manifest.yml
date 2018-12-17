@@ -1,0 +1,6 @@
+---
+buildpack: https://github.com/cloudfoundry/python-buildpack
+applications:
+- name: cf-hello-world
+  memory: 128M
+  random-route: true

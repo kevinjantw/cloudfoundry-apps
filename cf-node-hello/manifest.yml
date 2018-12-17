@@ -1,0 +1,12 @@
+#--------------------------------------
+# change the `host` property to a
+# unique hostname on the domain you
+# are deploying to.
+#--------------------------------------
+
+applications:
+- name:    cf-node-hello
+  host:    cf-node-hello-endpoint
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  memory:  256M
+  disk_quota: 1G

@@ -1,0 +1,3 @@
+requests
+psycopg2==2.7.1
+cloudfoundry-client==0.0.19

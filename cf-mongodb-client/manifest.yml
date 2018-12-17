@@ -1,0 +1,7 @@
+applications:
+- name: cf-mongodb_client 
+  buildpack: python_buildpack
+  health-check-type: process
+  no-route: true
+  memory: 512MB
+  disk_quota: 1G

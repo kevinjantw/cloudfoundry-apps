@@ -1,0 +1,6 @@
+applications:
+- name: cf-json-matching
+  host: cf-json-matching
+  buildpack: python_buildpack
+  memory: 1G
+  disk_quota: 2G  
